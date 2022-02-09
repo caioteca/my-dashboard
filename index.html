@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png" />
+    <meta property="twitter:image" content="imgs/site.png" />
+
+
+    <meta name="description" content="Desenvolvimento de sites usando as melhores tecnologias do mercado. ">
+    <meta name="author" content="Caio Teca - (+244) 948-173-931">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/config.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Dashboard - Caio Teca</title>
+</head>
+
+<body>
+
+    <section class="section-main">
+
+        <nav class="sidebar animate">
+            <div class="sidebar-container">
+                <ul class="sidebar-list animate__animated animate__fadeInDown">
+                    <li class="sidebar-link" id="sidebar-link--menu">
+                        <span id="menu-js" class="icon"><i class="far fa-code"></i></span>
+                        <span class="title">ELearn</span>
+                    </li>
+                    <li class="sidebar-link">
+                        <a href="#">
+                            <span class="icon"><i class="fas fa-home"></i></span>
+                        </a>
+                        <a href="#">
+                            <span class="title">Início</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-link cursos">
+                        <a href="#">
+                            <span class="icon"><i class="fas fa-shopping-cart"></i></span></a>
+                            <a href="#">
+                                <span class="title">Cursos</span></a>
+                    </li>
+                    <li class="sidebar-link">
+                        <a href="#"> 
+                        <span class="icon"><i class="fas fa-tshirt"></i></span></a>
+                        <a href="#"> 
+                        <span class="title">Anotações</span>
+                        </a>
+                        
+                    </li>
+                    <li class="sidebar-link">
+                        <a href="#"> 
+                        <span class="icon"><i class="fas fa-user-friends"></i></span></a>
+                        <a href="#"> 
+                        <span class="title">Calendário</span></a>
+                    </li>
+                    <li class="sidebar-link">
+                        <a href="#"> 
+                        <span class="icon"><i class="fas fa-comment"></i></span></a>
+                        <a href="#"> 
+                        <span class="title">Fórum</span></a>
+                    </li>
+                    <li class="sidebar-link" id="sidebar-link-settings">
+                        <a href="#"> 
+                        <span class="icon"><i class="fas fa-cog"></i></span>
+                        </a>
+                        <a href="#"> 
+                        <span class="title">Configurações</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-link">
+                        <a href="#"> 
+                        <span class="icon"><i class="fas fa-sign-out-alt"></i></span></a>
+                        <a href="#"> 
+                        <span class="title">Sair</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="content">
+            <section class="main-content">
+                <div class="container main">
+
+                    <div class="header">
+                        <input type="search" class="search-input">
+
+                        <div class="profile-screen">
+                            <div class="profile-notification">
+                                <img src="./imgs/notification.svg" alt="Notificação">
+                            </div>
+                            <div class="profile-perfil">
+                                <img class="profile-perfil--img" src="./imgs/foto-perfil.jpg" alt="">
+                                <span class="profile-perfil--name">Caio Teca</span>
+                                <img id="teste4" src="./imgs/arrow.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="dark-mode">
+                            <div id="dark" class="dark-mode--text">Dark</div>
+                            
+                            <div class="dark-mode--toggle">
+                                <input type="checkbox" id="switch" name="theme" />
+                                <label class="toggle-label" for="switch">Toggle</label>
+                            </div>
+                            <div id="light" class="dark-mode--text">Light</div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="hero">
+                        <div class="hero-text">
+                            <h1 class="hero-text--heading">
+                                Olá, Caio
+                                <span class="hero-text--span">O que você vai aprender hoje?</span>
+                            </h1>
+                        </div>
+
+                        <div class="hero-banner">
+                            <div class="hero-banner--text">
+                                <div class="hero-banner--title">Desenvolvimento web com React</div>
+                                <div class="hero-banner--description">Aprenda como desenvolver aplicações web com uma
+                                    das bibliotecas mais utilizadas no mercado.</div>
+                                <div class="hero-banner--btn"><a class="hero-banner--button" href="#">Aprenda agora</a>
+                                </div>
+                            </div>
+                            <div class="hero-banner--img">
+                                <img src="./imgs/web-developer-illustration.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="journeys">
+                        <div class="card-title">Trilhas</div>
+                        <div class="journeys-container">
+                            <div class="journey" id="teste1">
+                                <div class="journey--title">Front-end</div>
+                                <div class="journey--description">
+                                    <span>30 horas de curso</span>
+                                    <span>HTML, CSS, JavaScript e ReactJS</span>
+                                </div>
+                                <div class="journey--btn"><a class="journey--anchor" href="">Acessar trilha</a></div>
+                            </div>
+                            <div class="journey" id="teste2">
+                                <div class="journey--title">Back-end</div>
+                                <div class="journey--description">
+                                    <span>25 horas de curso</span>
+                                    <span>HTML, CSS, JavaScript e NodeJS</span>
+                                </div>
+                                <div class="journey--btn"><a class="journey--anchor" href="">Acessar trilha</a></div>
+                            </div>
+                            <div class="journey" id="teste3">
+                                <div class="journey--title">Mobile</div>
+                                <div class="journey--description">
+                                    <span>30 horas de curso</span>
+                                    <span>HTML, CSS, JavaScript e React Native</span>
+                                </div>
+                                <div class="journey--btn"><a class="journey--anchor" href="">Acessar trilha</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="last-content">
+                        <div class="statistics">
+                            <div class="card-title">Estatística</div>
+                            <div class="statistics-container">
+                                <div class="statistic">
+
+                                    <div class="statistic-img">
+                                        <img src="./imgs/circulo.svg" alt="">
+                                    </div>
+
+                                    <div class="statistic-text">
+
+                                        <div class="statistic-desc">
+                                            <div class="statistic-desc--color---completed">
+                                            </div>
+                                            <div class="statistic-desc--description">
+                                                <div class="statistic-desc--description-text">30%</div>
+                                                <div class="statistic-desc--description-text">Completado</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="statistic-desc">
+                                            <div class="statistic-desc--color---progress">
+                                            </div>
+                                            <div class="statistic-desc--description">
+                                                <div class="statistic-desc--description-text">20%</div>
+                                                <div class="statistic-desc--description-text">Progresso</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="courses">
+                            <div class="card-title">Cursos em progresso</div>
+                            <div class="course-container">
+                                <div class="course">
+                                    <img src="./imgs/js.svg" alt="">
+                                    <div class="course-text">
+                                        <div class="course-text--name">Javascript</div>
+                                        <div class="course-text--desc">High-order functions</div>
+                                    </div>
+                                    <img class="arrow-right" src="./imgs/arrow-right.svg" alt="">
+                                </div>
+                                <div class="course">
+                                    <img src="./imgs/sass.svg" alt="">
+                                    <div class="course-text">
+                                        <div class="course-text--name">Sass</div>
+                                        <div class="course-text--desc">Mixins e funções</div>
+                                    </div>
+                                    <img class="arrow-right" src="./imgs/arrow-right.svg" alt="">
+                                </div>
+                                <div class="course">
+                                    <img src="./imgs/react-native.svg" alt="">
+                                    <div class="course-text">
+                                        <div class="course-text--name">React Native</div>
+                                        <div class="course-text--desc">Navegação</div>
+                                    </div>
+                                    <img class="arrow-right" src="./imgs/arrow-right.svg" alt="">
+                                </div>
+                                <div class="course">
+                                    <img src="./imgs/css.svg" alt="">
+                                    <div class="course-text">
+                                        <div class="course-text--name">CSS</div>
+                                        <div class="course-text--desc">Flexbox</div>
+                                    </div>
+                                    <img class="arrow-right" src="./imgs/arrow-right.svg" alt="">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="side-content">
+
+                <div class="profile">
+                    <div class="profile-notification">
+                        <img src="./imgs/notification.svg" alt="Notificação">
+                    </div>
+                    <div class="profile-perfil">
+                        <img class="profile-perfil--img" src="./imgs/foto-perfil.jpg" alt="">
+                        <span class="profile-perfil--name">Caio Teca</span>
+                        <img src="./imgs/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="calendars">
+                    <div class="card-title">Calendário</div>
+                    <div class="calendar-container">
+                        <div class="calendar">
+                            <div class="month">
+                                <i class="fas fa-angle-left prev"></i>
+                                <div class="date">
+                                    <div class="date-text" id="month"></div>
+                                    <div class="date-text" id="year"></div>
+                                </div>
+                                <i class="fas fa-angle-right next"></i>
+                            </div>
+                            <div class="weekdays">
+                                <div>Dom</div>
+                                <div>Seg</div>
+                                <div>Ter</div>
+                                <div>Qua</div>
+                                <div>Qui</div>
+                                <div>Sex</div>
+                                <div>Sab</div>
+                            </div>
+                            <div class="days"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="classes">
+                    <div class="card-title">Novas aulas</div>
+                    <div class="classes-container">
+                        <div class="class">
+                            <div class="class-img">
+                                <img src="./imgs/react.svg" alt="">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-text--module">Módulo</div>
+                                <div class="class-text--project">Styled Components</div>
+                                <div class="class-text--classes">12 aulas</div>
+                            </div>
+                        </div>
+                        <div class="class">
+                            <div class="class-img">
+                                <img src="./imgs/react.svg" alt="">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-text--module">Projeto (Front-end)</div>
+                                <div class="class-text--project">Dashboard</div>
+                                <div class="class-text--classes">30 aulas</div>
+                            </div>
+                        </div>
+                        <div class="class">
+                            <div class="class-img">
+                                <img src="./imgs/js.svg" alt="">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-text--module">Módulo</div>
+                                <div class="class-text--project">Async e Fetch</div>
+                                <div class="class-text--classes">16 aulas</div>
+                            </div>
+                        </div>
+                        <div class="class">
+                            <div class="class-img">
+                                <img src="./imgs/nodejs.svg" alt="">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-text--module">Projeto (Back-end)</div>
+                                <div class="class-text--project">IFood</div>
+                                <div class="class-text--classes">32 aulas</div>
+                            </div>
+                        </div>
+                        <div class="class">
+                            <div class="class-img">
+                                <img src="./imgs/react.svg" alt="">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-text--module">Projeto (Front-end)</div>
+                                <div class="class-text--project">IFood</div>
+                                <div class="class-text--classes">32 aulas</div>
+                            </div>
+                        </div>
+                        <div class="class">
+                            <div class="class-img">
+                                <img src="./imgs/react-native.svg" alt="">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-text--module">Projeto (Mobile)</div>
+                                <div class="class-text--project">IFood</div>
+                                <div class="class-text--classes">32 aulas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
